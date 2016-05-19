@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en"><!--the biging of the html and specify the language-->
+
+<head><!--the header-->
+
+  <meta charset = "UTF-8" />
+  <title>Basic Calculator</title><!--the tilte of the page -->
+  <link rel="stylesheet" href="main.css"><!--include the style sheet-->
+
+</head>
+  <body><!--the begining of the body-->
+
+    <form name="calculator"><!--create a form: begining-->
+
+      <!--the rest of the code is creating buttons -->
+      <input class="output" type="text" name="text" id="output">
+
+      <input class="button clear" type="button" name="button" value="AC" id="button_clear" onclick=Clear()>
+      <input class="button orange" type="button" name="button" id="button_sign" value="+/-" onclick=Sign()>
+      <input class="button orange" type="button" name="button" id="button_mod" value="%" onclick=Mod()>
+      <input class="button orange" type="button" name="button" id="button_division" value="/" onclick=Division()>
+
+      <input class="button" type="button" name="button" value="7" id="button_seven" onclick= values(value)>
+      <input class="button" type="button" name="button" value="8" id="button_eight" onclick= values(value)>
+      <input class="button" type="button" name="button" value="9" id="button_nine" onclick=values(value)>
+      <input class="button orange" type="button" name="button" value="*" id="button_multiply" onclick=Multiply()>
+
+      <input class="button" type="button" name="button" value="4" id="button_four" onclick= values(value)>
+      <input class="button" type="button" name="button" value="5" id="button_five" onclick= values(value)>
+      <input class="button" type="button" name="button" value="6" id="button_six" onclick=values(value)>
+      <input class="button orange" type="button" name="button" value="-" id="button_minus" onclick=Minus()>
+
+      <input class="button" type="button"  name="button"  value="1"    id="button_one" onclick=values(value)>
+      <input class="button" type= "button" name= "button" value= "2"   id="button_two" onclick=values(value)>
+      <input class="button" type="button"  name="button"  value="3"    id="button_three" onclick=values(value)>
+      <input class="button orange" type= "button" name= "button" value= " + " id="button_plus" onclick=Addition()>
+
+      <input class="button" type="button" name="button" value="0" id="button_zero" onclick=values(value)>
+      <input class="button" type="button" name="button" value="." id="button_dot" onclick=values(".")>
+      <input class="button" type="button" name= "button" value="" id="button_empty" onclick=values("0")>
+      <input class="button orange" type="button" name= "button" value= ' = ' id="button_equal" onclick=equal()>
+
+    </form><!--the end of the calculator form -->
+
+    <script src="main.js"></script><!--includes the java script file-->
+
+  </body><!--the end of the body -->
+</html><!--the end of the html-->

@@ -1,0 +1,36 @@
+/*the style sheet*/
+
+body {/*style the body of the html file*/
+  max-width: 50em;
+  margin: auto;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.output {/*style the text input field*/
+  background: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.button {/*style all the buttons*/
+  width: 25%;
+  float: left;
+  background: gray;
+  color: black;
+}
+
+.orange {/*style all the button orange*/
+  background: orange;
+}
+
+input {/*style all the input in the buttons*/
+  box-sizing: border-box;
+  padding: 2em;
+  border: 2px solid white;
+  font-weight: 600;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-family: 'Lucida Grande','Helvetica', sans-serif;
+}
